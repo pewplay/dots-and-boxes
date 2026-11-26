@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Dots and Boxes",
+  "description": "Draw lines between dots, close boxes to claim them and outsmart the computer or a friend in this pen-and-paper classic. Free in your browser.",
+  "about": "Dots and Boxes is the classic pencil-and-paper game, now on a clean notebook-style grid. Players take turns drawing one line between two neighboring dots. Whoever draws the fourth side of a box claims it, colors it in and must draw another line right away. When every box is taken, the player with the most boxes wins.\n\nThe game looks simple, but it is all about timing. Early on you try not to draw the third side of any box, because that hands it to your opponent. Later, someone is forced to open a chain of boxes, and choosing which chain to give away decides the game.\n\nPlay on a 3×3, 4×4, 5×5 or 6×6 board against the computer at three difficulty levels, or challenge a friend on the same device.",
+  "howToPlay": "Tap between two neighboring dots to draw a line. If your line completes the fourth side of a box, the box is yours and you play again. Avoid drawing the third side of a box unless you have no choice. When all boxes are claimed, the player with more boxes wins.",
+  "controls": [
+    {
+      "input": "Click / Tap",
+      "action": "Draw a line between two dots"
+    },
+    {
+      "input": "Mouse over",
+      "action": "Preview the line"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Never draw the third side of a box early in the game: it gives the box away.",
+    "Near the end, count the chains of boxes and open the shortest one first.",
+    "A move that completes two boxes at once is worth checking for on every turn.",
+    "On bigger boards the endgame matters more, so plan the chains ahead."
+  ],
+  "faq": [
+    {
+      "question": "Is Dots and Boxes free to play?",
+      "answer": "Yes. Dots and Boxes is free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play on a phone or tablet?",
+      "answer": "Yes. Tap the gap between two dots to draw a line. The grid scales to fit portrait and landscape screens."
+    },
+    {
+      "question": "What happens when I close a box?",
+      "answer": "You claim the box and immediately draw another line. You can keep going as long as each new line closes a box."
+    }
+  ],
+  "category": "Board",
+  "tags": [
+    "dots and boxes",
+    "pen and paper",
+    "strategy",
+    "two player",
+    "classic"
+  ],
+  "author": "PewPlay",
+  "playMode": "Both",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
